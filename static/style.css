@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  font-size: 20px;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 600px;
+
+  margin: 0 auto;
+  padding: 4%;
+
+  border-left: 3px solid #b46464;
+  border-right: 3px solid darkgray;
+}
+
+img {
+  width: 80%;
+  padding: 5%;
+  border: 1px solid black;
+  background-color: deepskyblue;
+}
+
+img:hover {
+  width: 90%;
+  transition: 0.2s;
+}
+
+h2 {
+  padding: 2%;
+  border: 1px solid black;
+  background-color: #1f8e6d;
+}
+
+a {
+  font-size: 30px;
+  color: #9a5151;
+}
+
+a:hover {
+  color: #974949;
+  font-size: 35px;
+  transition: 0.2s;
+}
+.Pages{
+  display:flex ;
+  flex-direction: column;
+  gap: 15px;
+}
